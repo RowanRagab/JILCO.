@@ -1,0 +1,180 @@
+/* General */
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+}
+body{
+    background: rgb(215,210,210);
+    background: linear-gradient(0deg, rgba(215,210,210,1) 0%, rgba(255,255,255,1) 80%);
+
+}
+
+/* NAVBAR */
+.navEvent{
+    background-color: rgb(144, 10, 10);
+    border-bottom-left-radius: 26px;
+    border-bottom-right-radius: 26px;
+    border-bottom: 4px solid rgb(216, 19, 19);
+    height: 10%;
+}
+.navbar img{
+    width: 8%;
+    
+}
+.navbar .logo{
+    cursor: pointer;
+}
+.navbar{
+    z-index: 2;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link{
+    color: rgb(255, 255, 255);
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:hover{
+    color: rgb(220, 2, 2);
+    border-bottom: 2px solid rgb(220, 2, 2);
+    transition: all .5s;
+}
+.navbar button , .home-content{
+    color: rgb(255, 255, 255);
+    
+}
+.navbar button:hover{
+    background:rgb(220, 2, 2);
+    color: rgb(255, 255, 255);
+    transition: all .5s;
+    
+}
+/* Home section */
+
+.home-content{
+    background-image: url(../pic/2.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+ .home .bg{
+    background-color: rgba(30, 29, 29, 0.41);
+} 
+.home-btn button{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.595);
+}
+.home-btn .Video{
+    border:none
+}
+.home-btn button:hover{
+    background-color:rgb(220, 2, 2) ;
+border: none;
+transition: all .5s;
+}
+.home-btn .fa-circle-play{
+    color: rgb(220, 2, 2);
+}
+.home-btn:hover .fa-circle-play{
+color:white;
+
+}
+.matrial .col-md-4{
+    color: white;
+    background-color: rgb(59, 59, 59);
+
+}
+.matrial .col-md-4 .fa-shirt , .fa-pen-ruler , .fa-palette {
+    color: rgb(169, 2, 2);
+}
+.matrial .col-md-4:hover ,.matrial .col-md-4:hover .fa-shirt ,.matrial .col-md-4:hover .fa-pen-ruler ,.matrial .col-md-4:hover  .fa-palette {
+    background:rgb(169, 2, 2);
+    transform: scale(1.08);
+    color: white;
+    transition: all .5s;
+}
+/* About us sec */
+.about-us{
+    line-height: 40px;
+}
+.about-us .aboutImg img{
+    border: 2px solid rgb(169, 2, 2);
+}
+.about-us .aboutImg .last{
+right: 70%;
+bottom: 5%;
+}
+.about-us .aboutImg .frist{
+transform: translate(90px,60px);
+}
+.about-us .head ,.product .head , .serv .head{
+    font-size: 100px;
+    font-weight: 800;
+    
+    color: rgb(169, 2, 2);
+    opacity: .2;
+}
+/* Counter sec */
+.counter{
+    background-image: url(../pic/count\ bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Products section */
+.product .productList li{
+cursor: pointer;
+}
+.product .productList li:hover{
+    color:rgb(195, 3, 3);
+    font-weight: 700;
+    border-bottom: 2px solid rgb(195, 3, 3);
+}
+.productImgs .imgs img {
+    border: 2px solid rgb(195, 3, 3) ;
+    border-radius: 12px;
+    box-shadow: 20px 20px 20px rgba(195, 3, 3, 0.312);
+}
+/* Serv sec */
+
+.serv .serv-inner img {
+width: 100%;
+transition: all .5s;
+
+}
+.serv .serv-inner:hover  img{
+
+    transform: scale(1.09);
+}
+
+.serv .titleImg{
+background: rgb(59, 59, 59);
+color: rgb(247, 224, 224);
+}
+.serv .titleImg:hover{
+    color: rgb(195, 3, 3);
+background: rgb(206, 203, 203);
+
+transition: all .5s;
+}
+
+/* footer */
+footer{
+    background: url(../pic/footerbg.avif);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+footer img{
+    width: 8%;
+}
+footer .social li a{
+    
+    color:  rgb(195, 3, 3);
+   
+}
+footer .social li{
+    border: 2px solid  rgb(195, 3, 3);
+    border-radius: 50%;
+}
+footer .social li:hover , footer .social li:hover a{
+color: white;
+background-color: rgb(195, 3, 3);
+}
